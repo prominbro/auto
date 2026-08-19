@@ -1,1 +1,0 @@
-hy2://test-auth@2.2.2.2:443?sni=example.com#Test_HY2_SG

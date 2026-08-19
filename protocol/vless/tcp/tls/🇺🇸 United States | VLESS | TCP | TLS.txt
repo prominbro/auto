@@ -1,1 +1,0 @@
-vless://test-uuid@8.8.8.8:443?type=tcp&security=reality&sni=google.com&fp=chrome&pbk=test-key&sid=test-id#Test_VLESS_US

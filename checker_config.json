@@ -1,7 +1,0 @@
-{
-    "check_timeout": 10,
-    "check_threads": 50,
-    "gemini_endpoint": "https://generativelanguage.googleapis.com/",
-    "save_whitelist": true,
-    "verbose": true
-}
