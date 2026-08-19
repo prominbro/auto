@@ -1,0 +1,11 @@
+# Пример файла с прокси для тестирования
+# Скопируйте ваши прокси-конфиги сюда или создайте файл proxies.txt
+
+# VLESS пример:
+# vless://uuid@ip:port?type=tcp&security=reality&sni=example.com&fp=chrome&pbk=key&sid=id#Name
+
+# Trojan пример:
+# trojan://password@ip:port?type=ws&security=tls&sni=example.com#Name
+
+# Hysteria2 пример:
+# hy2://auth@ip:port?sni=example.com#Name

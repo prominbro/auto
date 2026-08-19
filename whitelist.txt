@@ -1,0 +1,9 @@
+🇺🇸 United States | HY2 | UDP
+hy2://test-auth@2.2.2.2:443?sni=example.com#Test_HY2_SG
+
+🇺🇸 United States | VLESS | TCP | TLS
+vless://test-uuid@8.8.8.8:443?type=tcp&security=reality&sni=google.com&fp=chrome&pbk=test-key&sid=test-id#Test_VLESS_US
+
+🇦🇺 Australia | TROJAN | WS | TLS
+trojan://test-pass@1.1.1.1:8443?type=ws&security=tls&sni=cloudflare.com#Test_Trojan_AU
+

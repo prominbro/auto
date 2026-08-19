@@ -1,0 +1,4 @@
+# Тестовые прокси для проверки
+vless://test-uuid@8.8.8.8:443?type=tcp&security=reality&sni=google.com&fp=chrome&pbk=test-key&sid=test-id#Test_VLESS_US
+trojan://test-pass@1.1.1.1:8443?type=ws&security=tls&sni=cloudflare.com#Test_Trojan_AU
+hy2://test-auth@2.2.2.2:443?sni=example.com#Test_HY2_SG
