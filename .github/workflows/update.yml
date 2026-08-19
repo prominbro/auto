@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Python
         uses: actions/setup-python@v5
@@ -41,9 +43,7 @@ jobs:
             fi
           done
 
-      - name: Commit & Push
-        env:
-          AUTO_TOKEN: ${{ secrets.AUTO }}
+      - name: Push to hub.mos.ru
         run: |
           git config user.name "auto-bot"
           git config user.email "auto@users.noreply.github.com"
@@ -61,5 +61,6 @@ jobs:
           TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
           git diff --cached --quiet && echo "Нет изменений" && exit 0
           git commit -m "update: $TIMESTAMP"
-          git remote set-url origin https://$AUTO_TOKEN@hub.mos.ru/kfwl/auto.git
-          git push origin master
+          git remote add mos https://oauth2:${{ secrets.AUTO }}@hub.mos.ru/kfwl/auto.git || \
+          git remote set-url mos https://oauth2:${{ secrets.AUTO }}@hub.mos.ru/kfwl/auto.git
+          git push -f mos master
