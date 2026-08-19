@@ -59,4 +59,4 @@ jobs:
           TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
           git diff --cached --quiet && echo "Нет изменений" && exit 0
           git commit -m "update: $TIMESTAMP"
-          git push
+          git push origin master
