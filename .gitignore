@@ -1,26 +1,12 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
 venv/
-env/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Temp
+__pycache__/
+*.pyc
 temp/
-*.tmp
-*.bak
-
-# Logs
+#RKP_Parser5.0.1/cores/
+#RKP_Parser5.0.1/temp/
+#RKP_Parser5.0.1/backups/
+#RKP_Parser5.0.1/configs/
+proxies.txt
 *.log
-
-# System
-.DS_Store
-Thumbs.db
+protocol/
+countries/
