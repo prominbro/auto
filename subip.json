@@ -1,24 +1,4 @@
 {
-  "176.109.84.0/23": {
-    "mts": {
-      "available": false,
-      "alive_count": 0
-    },
-    "t2": {
-      "available": false,
-      "alive_count": 0
-    },
-    "megafon": {
-      "available": true,
-      "alive_count": 73
-    },
-    "beeline": {
-      "available": true,
-      "alive_count": 75
-    },
-    "tmobile": {
-      "available": true,
-      "alive_count": 76
-    }
-  }
+  "176.109.0.0/23": {},
+  "176.109.1.0/23": {}
 }
